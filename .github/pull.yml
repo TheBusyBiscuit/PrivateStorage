@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: TheBusyBiscuit:master
+    mergeMethod: merge
+    conflictReviewers:
+      - weiii-joe
+      - xMikux
